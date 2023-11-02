@@ -9,6 +9,8 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import smitstore from "../../Assets/smitStore.jpeg"
+import smitForm from "../../Assets/smitForm.jpeg"
+
 
 function Projects() {
   return (
@@ -33,18 +35,19 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={smitForm}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="SMIT Registration Form"
+              description="I have created a clone of Smith's registration form. In this form, I have used Firebase as the backend. There are three pages in this form: the first one for registration, and the second one for downloading an ID card. When a user selects a course and fills out the form, their complete ID card will be generated.
+              ."
+              ghLink="https://github.com/usamakhan12345/saylaniFormWithFirebase"
+              demoLink="https://saylaniformpk.netlify.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}

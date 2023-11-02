@@ -8,7 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-import smitstore from "../../Assets/Projects/smitstore.jpg"
+import smitstore from "../../Assets/smitStore.jpeg"
 
 function Projects() {
   return (
@@ -33,7 +33,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
@@ -87,7 +87,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
